@@ -1,20 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
+import styles from "./Navbar.module.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
   return (
-    <nav className="fixed flex justify-between inset-0 p-4 text-xl font-bold z-10 text-white bg-gradient-to-b from-neutral-900">
-      <div className="font-Lobster">Prakhar Agarwal</div>
-      <div>
-        <ul className="hidden md:flex space-x-5">
-          <l1>Blog</l1>
-          <l1>Top</l1>
-          <l1>About Me</l1>
-          <l1>Projects</l1>
-          <l1>Skill Set</l1>
-          <l1>Open Source</l1>
-          <l1>My Journey</l1>
+    <nav className={styles.container}>
+      <div className={styles.brand}>Prakhar Agarwal</div>
+      <div
+        className={
+          isNavExpanded ? `${styles.menu} ${styles.expanded}` : styles.menu
+        }
+      >
+        <ul>
+          <a href="#">
+            <li>About Me</li>
+          </a>
+          <a href="#">
+            <li>Projects</li>
+          </a>
+          <a href="#">
+            <li>Skill Set</li>
+          </a>
+          <a href="#">
+            <li>Open Source</li>
+          </a>
         </ul>
       </div>
+      <a
+        href="#"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+          console.log("isNavExpanded", isNavExpanded);
+        }}
+      >
+        <GiHamburgerMenu className={styles.hamburger} />
+      </a>
     </nav>
   );
 };

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
 import styles from "./Hero.module.css";
-import prakhar_img from "../../public/prakhar_img.jpg";
 
 const Hero = () => {
   useEffect(() => {
@@ -14,17 +13,6 @@ const Hero = () => {
   return (
     <main>
       <section className={styles.section}>
-        {/* Image */}
-        {/* <div className={styles.img}>
-          <Image
-            className={styles.img}
-            src={prakhar_img}
-            alt="prakhar image"
-            height={512}
-            width={512}
-          />
-        </div> */}
-
         <div className={styles.text}>
           <h2 style={{ "--i": 0.5 }}>
             <span>Javascript</span>
