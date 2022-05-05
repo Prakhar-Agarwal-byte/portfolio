@@ -4,7 +4,7 @@
   align-items: center;
   background-color: transparent;
   position: fixed;
-  z-index: 10;
+  z-index: 300;
   margin: 1rem;
   color: white;
   margin-right: auto;
