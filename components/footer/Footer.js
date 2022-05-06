@@ -12,6 +12,7 @@ const Footer = () => {
             className={styles.a}
             href="https://github.com/Prakhar-Agarwal-byte"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             Prakhar Agarwal

@@ -39,7 +39,7 @@ const Navbar = () => {
             <li>Projects</li>
           </a>
           <a
-            class={styles.resume}
+            className={styles.resume}
             href="#resume"
             onClick={() => {
               setIsNavExpanded(!isNavExpanded);
