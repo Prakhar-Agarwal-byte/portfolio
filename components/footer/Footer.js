@@ -11,6 +11,7 @@ const Footer = () => {
           <a
             className={styles.a}
             href="https://github.com/Prakhar-Agarwal-byte"
+            target="_blank"
           >
             {" "}
             Prakhar Agarwal

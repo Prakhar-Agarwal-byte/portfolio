@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
   color: white;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .icons {
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: flex;
   width: 70%;
   justify-content: space-around;

@@ -7,7 +7,8 @@
   background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
   overflow: hidden;
 }
-.stars {
+
+/* .stars {
   position: absolute;
   top: 0;
   left: 0;
@@ -383,4 +384,4 @@
   50% {
     opacity: 0.6;
   }
-}
+} */

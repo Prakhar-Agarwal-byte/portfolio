@@ -23,14 +23,6 @@ const Navbar = () => {
             <li>About Me</li>
           </a>
           <a
-            href="#projects"
-            onClick={() => {
-              setIsNavExpanded(!isNavExpanded);
-            }}
-          >
-            <li>Projects</li>
-          </a>
-          <a
             href="#experience"
             onClick={() => {
               setIsNavExpanded(!isNavExpanded);
@@ -39,12 +31,22 @@ const Navbar = () => {
             <li>Experience</li>
           </a>
           <a
-            href="#open-source"
+            href="#projects"
             onClick={() => {
               setIsNavExpanded(!isNavExpanded);
             }}
           >
-            <li>Open Source</li>
+            <li>Projects</li>
+          </a>
+          <a
+            class={styles.resume}
+            href="#resume"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+              window.open("/resume.pdf");
+            }}
+          >
+            <li>Resume</li>
           </a>
         </ul>
       </div>
