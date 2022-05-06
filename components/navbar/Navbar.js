@@ -14,16 +14,36 @@ const Navbar = () => {
         }
       >
         <ul>
-          <a href="#">
+          <a
+            href="#about"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+          >
             <li>About Me</li>
           </a>
-          <a href="#">
+          <a
+            href="#projects"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+          >
             <li>Projects</li>
           </a>
-          <a href="#">
-            <li>Skill Set</li>
+          <a
+            href="#experience"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+          >
+            <li>Experience</li>
           </a>
-          <a href="#">
+          <a
+            href="#open-source"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+          >
             <li>Open Source</li>
           </a>
         </ul>
@@ -32,7 +52,6 @@ const Navbar = () => {
         href="#"
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);
-          console.log("isNavExpanded", isNavExpanded);
         }}
       >
         <GiHamburgerMenu className={styles.hamburger} />
