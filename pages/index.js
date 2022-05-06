@@ -1,5 +1,5 @@
 import About from "../components/about/About";
-import AboutTop from "../components/about_top/AboutTop";
+import Card from "../components/card/Card";
 import Experience from "../components/experience/Experience";
 import Footer from "../components/footer/Footer";
 import Hero from "../components/hero/Hero";
@@ -13,7 +13,6 @@ export default function Home() {
       <Navbar />
       <HeroTop />
       <Hero />
-      <AboutTop />
       <About />
       <Experience />
       <Projects />
