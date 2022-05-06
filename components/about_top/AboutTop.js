@@ -20,10 +20,10 @@ const AboutTop = () => {
         </div>
 
         <div className={styles.desc}>
-          I'm Prakhar Agarwal, a 2nd year Mechanical Engineering undergraduate
-          at IIT (BHU) Varanasi. I am passionate about technology and
-          programming. I love exploring new tech and have worked with various
-          technologies. I have a keen interest in building applications,
+          I&apos;m Prakhar Agarwal, a 2nd year Mechanical Engineering
+          undergraduate at IIT (BHU) Varanasi. I am passionate about technology
+          and programming. I love exploring new tech and have worked with
+          various technologies. I have a keen interest in building applications,
           Computer Vision and Problem Solving. I 💗 contributing to Open Source
           and building something that can help people. Feel free to reach me on
           my social media handles. Thanks for visiting my website 😁
