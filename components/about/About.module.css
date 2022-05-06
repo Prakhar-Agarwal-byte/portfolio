@@ -49,11 +49,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .image {
-    display: none;
+  .sec {
+    flex-direction: column-reverse;
   }
   .desc {
     margin: 0;
+    margin-bottom: 1rem;
     width: 90%;
     line-height: 2.5rem;
     text-align: center;
@@ -61,5 +62,6 @@
 
   .icons {
     margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
