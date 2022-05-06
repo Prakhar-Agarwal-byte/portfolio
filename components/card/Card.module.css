@@ -148,3 +148,9 @@
     );
   }
 }
+
+@media screen and (max-width: 768px) {
+  .animatedbox {
+    max-width: calc(100vh - 30px);
+  }
+}
