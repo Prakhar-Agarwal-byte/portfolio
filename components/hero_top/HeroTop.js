@@ -7,7 +7,7 @@ import styles from "./HeroTop.module.css";
 
 const HeroTop = () => {
   return (
-    <div className={styles.container}>
+    <div id="prakhar" className={styles.container}>
       <div>
         <Image
           className={styles.image}

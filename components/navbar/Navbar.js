@@ -7,7 +7,9 @@ const Navbar = () => {
 
   return (
     <nav className={styles.container}>
-      <div className={styles.brand}>Prakhar Agarwal</div>
+      <div className={styles.brand}>
+        <a href="#prakhar">Prakhar Agarwal</a>
+      </div>
       <div
         className={
           isNavExpanded ? `${styles.menu} ${styles.expanded}` : styles.menu
